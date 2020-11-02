@@ -1,0 +1,71 @@
+body{
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size:1.5em;
+}
+
+#container{
+    width: 80%;
+    margin-left: 10%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#affichage{
+
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#message-container{
+    width:80%;
+    position: relative;
+}
+#users{
+    width:15%;
+    font-size: 0.9rem;
+}
+#affichage,#send-container{
+    position: relative;
+    padding: 2%;
+    border: 5px outset rgba(9, 156, 21, 0.562);
+    border-radius: 22px;
+}
+
+#send-container{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#message-send{
+    flex:1.5;
+}
+
+#message-send,#send-button,.message{
+    border-radius: 22px;
+    outline: none;
+    padding: 2%;
+}
+
+.own{
+    background-color: rgba(57, 253, 90, 0.568);
+    
+}
+
+.other{
+    background-color: rgba(128, 128, 128, 0.39);
+}
+
+#heure{
+    color:rgba(128, 128, 128, 0.664);
+    font-style: italic;
+    font-size: 0.8rem;
+}
